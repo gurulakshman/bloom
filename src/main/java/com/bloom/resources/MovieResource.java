@@ -48,6 +48,21 @@ public class MovieResource {
     	if(fieldname.equals("duration")) {
     		return this.movieDao.getMoviesByDuration(fieldvalue); 
     	} 
+    	if(fieldname.equals("actor")) {
+    		return this.movieDao.getMoviesByActor(fieldvalue); 
+    	} 
+    	if(fieldname.equals("actress")) {
+    		return this.movieDao.getMoviesByActress(fieldvalue); 
+    	} 
+    	if(fieldname.equals("director")) {
+    		return this.movieDao.getMoviesByDirector(fieldvalue); 
+    	} 
+    	if(fieldname.equals("releaseYear")) {
+    		return this.movieDao.getMoviesByReleaseYear(fieldvalue); 
+    	} 
+    	if(fieldname.equals("name")) {
+    		return this.movieDao.getMoviesByName(fieldvalue); 
+    	} 
 
     	return null;
     }

@@ -6,7 +6,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Movie {
 	
-    @NotNull
     @JsonProperty
     private int id;
 
@@ -20,11 +19,9 @@ public class Movie {
     private int duration;
 
 
-    @NotNull
     @JsonProperty
     private String actor;
 
-    @NotNull
     @JsonProperty
     private String actress;
 
