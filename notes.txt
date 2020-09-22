@@ -11,6 +11,10 @@ https://nulpointerexception.com/2018/07/12/dropwizard-apis-to-read-write-from-da
 H2 database
 https://github.com/Max-Meldrum/H2-Dropwizard-Sample
 
+// read response
+// https://www.dropwizard.io/en/release-1.0.x/manual/testing.html
+
+
 
 
 

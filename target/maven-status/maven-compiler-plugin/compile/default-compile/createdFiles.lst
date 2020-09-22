@@ -1,11 +1,5 @@
-com\bloom\dao\EmployeeDao.class
-com\bloom\models\Movie.class
-com\bloom\models\Employee.class
-com\bloom\resources\EmployeeResource.class
-com\bloom\resources\MyResource.class
 com\bloom\dao\MovieDao.class
-com\bloom\dao\InfoDao.class
+com\bloom\models\Movie.class
 com\bloom\BloomConfiguration.class
 com\bloom\BloomApplication.class
 com\bloom\resources\MovieResource.class
-com\bloom\models\Info.class

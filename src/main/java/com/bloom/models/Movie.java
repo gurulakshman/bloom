@@ -3,7 +3,11 @@ package com.bloom.models;
 import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+/**
+ * This is entity class for Movie table.
+ * @author Guru
+ *
+ */
 public class Movie {
 	
     @JsonProperty

@@ -11,7 +11,12 @@ import org.skife.jdbi.v2.sqlobject.customizers.RegisterMapperFactory;
 import org.skife.jdbi.v2.tweak.BeanMapperFactory;
 
 import com.bloom.models.Movie;
-
+/**
+ * This is the DAO class for Movie table.
+ * All the queries are defined here.
+ * @author Guru
+ *
+ */
 @RegisterMapperFactory(BeanMapperFactory.class)
 public interface MovieDao {
 	
@@ -42,8 +47,6 @@ public interface MovieDao {
 
     @SqlQuery("SELECT * FROM Movie WHERE name = :name ")
     List<Movie> getMoviesByName( @Bind("name") String name);
-
-    
 
     @SqlQuery("SELECT * FROM Movie WHERE releaseYear = :releaseYear ")
     List<Movie> getMoviesByReleaseYear( @Bind("releaseYear") String releaseYear);
