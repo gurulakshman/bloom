@@ -1,4 +1,64 @@
 https://github.com/sullis/dropwizard-helloworld
 
+database example
 
+https://github.com/dropwizard/dropwizard/tree/master/dropwizard-example
+
+hibernate exception
+
+https://nulpointerexception.com/2018/07/12/dropwizard-apis-to-read-write-from-database-using-hibernate/
+
+H2 database
+https://github.com/Max-Meldrum/H2-Dropwizard-Sample
+
+
+
+
+
+
+requiremnt
+
+
+ 
+
+Your task will be to create a small microservice for a movie library in Java 8. Preferably you would use a framework called Dropwizard.
+
+ 
+
+1) The microservice should be self-contained, meaning no other dependencies other than the build dependencies to run the software should be needed.
+
+2) Define a movie model with required and optional fields you think are crucial now and in the future.
+
+3) There is no need to persist the data. The movie data can be kept in memory.
+
+4) Implement basic CRUD operations and endpoints for the movie object
+
+5) Implement an endpoint to filter movies (e.g. by release-year, duration, actor)
+
+6) Write down a small description on how you would store the data in a database (NoSQL vs SQL) and explain your choice
+
+ 
+
+ 
+
+Please try to work in iterations and publish your work on a public repository on Github.com.
+
+ 
+
+Once you are done, please let us know about the repository and give us some instructions on how to run it on our machines. We'll test it locally.
+
+ 
+
+If you need more information, don’t hesitate to contact me. Please try to solve the work sample yourself and not with too many questions after you have understood the task. We want to see how you tackle the micro project, how you communicate and how you keep deadlines.
+
+ 
+
+Please let me know once you are clear about the task and provide me with a feasible delivery date.
+
+insert 
+    @SqlUpdate("INSERT INTO Movie (name,duration,actor,actress,director,releaseYear) VALUES(:name,:duration,:actor,:actress,:director,:releaseYear)")
+
+update query
+
+UPDATE Movie SET name = :name,duration = :duration, actor =:actor, actress = :actress, director = :director,releaseYear = :releaseYear WHERE id = :id
 
